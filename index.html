@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Responsive Portfolio Website | Guilherme Rodrigues</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#services">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://github.com/Gui027" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/guilherme-rodrigues-536839211/" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/euguigaldino" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Olá,</div>
+        <div class="text-two">Eu Sou Guilherme</div>
+        <div class="text-three">Desenvolvedor Web</div>
+        <div class="text-four">FullStack | Designer | Ethical Hacking</div>
+      </div>
+      <div class="button">
+        <a href="https://api.whatsapp.com/send?phone=5527996936715" target="_blank"><button>Contratar</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>Sobre Mim</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="Images/perfil.png" alt="">
+        </div>
+        <div class="right">
+          <div class="topic">Desenvolver É Minha Paixão</div>
+          <p>Sou apaixonado por tecnologia, inovação e elaboração de projetos. A caminho de me tornar um desenvolvedor
+            Full Stack, estudo Desenvolvimento de Software pela Trybe, onde desenvolvemos vários projetos individuais e
+            em grupo, e sempre buscando se aprimorar tanto em hard-skills, como em soft-skills. Acredito muito no poder
+            que a inovação e o conhecimento tem de mudar a vida das pessoas. Adoro criar soluções para melhorar a
+            experiência do cliente, preparado e disposto a novos desafios, posso contribuir com bagagem técnica de
+            experiências passadas e conhecimento acadêmico adquirido.</p>
+          <div class="button">
+            <button>Baixar CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <!-- Section Tag and Other Div will same where we need to put same CSS -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>Minhas Habilidades</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Habilidades Adquiridas</div>
+          <p>Eu costumo aproveitar qualquer oportunidade que aparece para aprender um pouco de tudo que existe na
+            programação, dando o ponta pé inicial para criar uma carreira sólida na programação.
+            Aprendendo várias Tecnologias como:
+            JavaScript | HTML | CSS | React | Node | Node.js | Express.js | MySQL | SQL | MongoDB | Git | Docker.
+            Estou sempre atrás de novos conhecimentos neste mundo da tecnologia, tanto sobre desenvolvimento, uso e
+            segurança. Se você gostaria de discutir sobre qualquer coisa estarei a disposição!</p>
+          <div class="experience">
+            <div class="num">6</div>
+            <div class="exp">Meses de <br> Experiência</div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">HTML</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">CSS</div>
+            <div class="per">60%</div>
+          </div>
+          <div class="box">
+            <div class="topic">JavScript</div>
+            <div class="per">50%</div>
+          </div>
+          <div class="box">
+            <div class="topic">React</div>
+            <div class="per">70%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>Meus Projetos</span></div>
+    </div>
+  </section>
+  <section class="sectionslide" id="sectionslide">
+    <div class="contentslide">
+      <div class="slides">
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+        <input type="radio" name="slide" id="slide3">
+        <input type="radio" name="slide" id="slide4">
+        <input type="radio" name="slide" id="slide5">
+
+        <div class="slide s1">
+          <img src="./Images/1.png" alt="Projeto App Receitas">
+        </div>
+        <div class="slide">
+          <img src="./Images/2.png" alt="Projeto Olx">
+        </div>
+        <div class="slide">
+          <img src="./Images/3.png" alt="Projeto Locais Para Deficientes">
+        </div>
+        <div class="slide">
+          <img src="./Images/1.png" alt="Projeto App Receitas">
+        </div>
+        <div class="slide">
+          <img src="./Images/2.png" alt="Projeto Olx">
+        </div>
+      </div>
+
+      <div class="navigation">
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+        <label class="bar" for="slide5"></label>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contate-me</span></div>
+      <div class="text">
+        <div class="topic">Tem Algum Projeto?</div>
+        <p>Se você tem alguma dúvida ou sugestão, me escreva! Estarei disposto a analisar e resolver seu problema
+          encontrando a melhor solução possível. É de grande importância que você deixe claro suas idéias e o que
+          pretende alcançar com elas, só assim poderemos elaborar um projeto de sucesso e que irá impactar positivamente
+          a todos os usuários.
+        </p>
+        <div class="button">
+          <a href="https://api.whatsapp.com/send?phone=5527996936715" target="_blank"><button>Vamos
+              Conversar ?</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Criado Por <a href="#">Guilherme Rodrigues</a> | &#169; 2021 Todos Direitos Reservados</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
